@@ -1,7 +1,7 @@
 {
-  "name": "miapp",
+  "name": "servidor",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,9 +9,8 @@
   "license": "GPL-3.0",
   "description": "",
   "dependencies": {
-    "body-parser": "^1.20.3",
-    "express": "^4.21.0",
-    "miapp": "file:",
-    "mongoose": "^8.6.3"
+    "@grpc/grpc-js": "^1.12.2",
+    "@grpc/proto-loader": "^0.7.13",
+    "servidor": "file:"
   }
 }
